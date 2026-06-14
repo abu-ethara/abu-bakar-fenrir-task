@@ -1,0 +1,22 @@
+SCOPE OF WORK
+Task Title: Tactical Pitch Simulator (Online Gaming Website)
+
+1. Frontend Architecture & Initialization
+- Initialize a strict frontend application utilizing React and Vite to ensure optimal build speeds and modern development standards.
+- Implement 'react-router-dom' to manage seamless client-side navigation between three primary views: The Manager Dashboard, The Locker Room (Squad Builder), and The Match Day Simulator.
+- Ensure the application is fully responsive, prioritizing a high-end desktop gaming monitor layout.
+
+2. Dataset Integration & Dynamic Theming
+- Integrate a provided 'teams.jsx' structural dataset containing exactly 20 specific clubs.
+- Write dynamic state logic that extracts the specific hex colors and logo paths from the dataset based on the active club selection.
+- Apply these extracted hex codes to the global CSS/styled-components to instantly re-theme the application's background, sidebar, and primary accent buttons.
+
+3. Core Component Development
+- App.jsx / Sidebar.jsx: Develop a persistent, high-contrast side navigation menu that tracks the user's current session state.
+- SquadBuilder.jsx: Develop an interactive drag-and-drop or click-to-select grid where users can slot players into a rigid tactical formation (e.g., 4-3-3).
+- MatchSim.jsx: Develop a visual output component that calculates and displays match win probabilities based on the active squad's data values.
+
+4. UI/UX & Animation Standards
+- Import and strictly utilize the 'framer-motion' library for all component animations.
+- Implement smooth mounting and unmounting page transitions across all routes to prevent hard browser reloads.
+- Develop highly responsive, smooth hover effects on all interactive elements (player cards, team crests, and navigation links) to mimic the tactile feedback of a premium game client.

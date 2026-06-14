@@ -1,0 +1,29 @@
+Rubric 1 - The submitted file must be a zipped archive (.zip).
+Rubric 2 - The zipped archive must exactly follow the naming convention: FENRIR_pitch-simulator-src_v.zip.
+Rubric 3 - The zipped archive must explicitly exclude the node_modules directory.
+Rubric 4 - The root directory of the extracted archive must contain a README.md file.
+Rubric 5 - The project must be initialized using Vite with the React framework.
+Rubric 6 - The application codebase must be written strictly in vanilla JavaScript (no TypeScript .ts or .tsx files allowed).
+Rubric 7 - The project dependencies in package.json must include react-router-dom.
+Rubric 8 - The project dependencies in package.json must include framer-motion.
+Rubric 9 - The project must not contain any backend server framework code (e.g., Node/Express, Python).
+Rubric 10 - The project must not contain any database or authentication SDKs (e.g., Firebase, Supabase).
+Rubric 11 - The application must feature a persistent sidebar component positioned on the left side of the viewport.
+Rubric 12 - The persistent sidebar must possess a rigidly defined width of exactly 250px.
+Rubric 13 - The main application canvas area must utilize #121212 as its baseline background color.
+Rubric 14 - The CSS or styled-components must not contain any hardcoded team brand colors (e.g., #EF0107 or #6CABDD).
+Rubric 15 - The application must successfully navigate between routes without triggering a full browser reload.
+Rubric 16 - The application must render a Dashboard view accessible at the root (/) path.
+Rubric 17 - The application must render a Locker Room squad builder accessible at the (/squad) path.
+Rubric 18 - The application must render a Match Day output view accessible at the (/simulation) path.
+Rubric 19 - The application state must dynamically update the background color of the sidebar using the primary_hex value from the selected activeClub.
+Rubric 20 - The application must dynamically render an image in the top-left sidebar header using the logo_path from the selected activeClub.
+Rubric 21 - The rendered club logo image in the header must be constrained to exactly 64x64 pixels.
+Rubric 22 - The Dashboard (/) route must successfully map and render all 20 clubs exclusively using the provided teams.jsx dataset.
+Rubric 23 - The application must utilize framer-motion's AnimatePresence component to manage transitions between the three primary routes.
+Rubric 24 - The club selection cards on the Dashboard must implement a framer-motion whileHover={{ scale: 1.05 }} animation state.
+Rubric 25 - The Locker Room view (/squad) must render exactly 11 distinct player drop-zones or selection slots.
+Rubric 26 - The 11 player slots in the Locker Room must be visually arranged to represent a 4-3-3 football formation.
+Rubric 27 - The application logic must actively prevent the user from adding a 12th player to the active squad array.
+Rubric 28 - The "Simulate Match" button must remain in a disabled, unclickable state if the active squad array contains fewer than 11 players.
+Rubric 29 - The Match Day view (/simulation) must render a distinct numerical win probability percentage on the screen.

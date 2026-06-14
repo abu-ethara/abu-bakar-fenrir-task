@@ -1,0 +1,8 @@
+PROJECT OVERVIEW
+Task Title: Tactical Pitch Simulator (Online Gaming Website)
+
+The objective of this project is to develop the frontend architecture for "Tactical Pitch Simulator," a premium, browser-based football club management game. Unlike standard static gaming portals, this application functions as a highly interactive, data-driven web utility where users assume the role of a club manager. 
+
+The core experience revolves around navigating a complex dashboard to draft a squad, manage locker room tactics, and simulate match probabilities. The application must process a structured dataset containing exactly 20 distinct football clubs, utilizing this data to dynamically re-theme the entire user interface—including accurate branding colors and logo paths—based on the user's selected team. 
+
+To ensure the web application feels like a AAA game client rather than a standard website, the architecture will rely heavily on advanced state management and fluid UI transitions. The final deliverable must demonstrate high-fidelity component rendering, seamless client-side routing, and interactive hover states that respond instantly to user input.
