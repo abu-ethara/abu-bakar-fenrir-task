@@ -1,5 +1,5 @@
 Rubric 1 - The submitted file must be a zipped archive (.zip).
-Rubric 2 - The zipped archive must exactly follow the naming convention: FENRIR_pitch-simulator-src_v.zip.
+Rubric 2 - The zipped archive must exactly follow the naming convention: [PREFIX]-[item-name]-[version]_[YYYY-MM-DD].zip.
 Rubric 3 - The zipped archive must explicitly exclude the node_modules directory.
 Rubric 4 - The root directory of the extracted archive must contain a README.md file.
 Rubric 5 - The project must be initialized using Vite with the React framework.
